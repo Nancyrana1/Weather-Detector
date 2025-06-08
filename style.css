@@ -38,7 +38,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .centerdiv {
-  height: 170vh;
+  height: 110vh;
   display: flex;
   align-items: center;
   justify-content: center;
