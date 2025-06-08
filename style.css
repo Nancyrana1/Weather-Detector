@@ -4,7 +4,13 @@ body {
 .container {
   position: absolute;
   left: 30%;
-  top: 15%;
+  top: 17%;
+}
+#tanishka{
+  text-align: center;
+  color: #4d61d3;
+  font-style: oblique;
+  font-family: cursive;
 }
 #input-box {
   height: 35px;
