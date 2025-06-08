@@ -26,4 +26,4 @@ A simple, stylish weather web app that allows users to search for real-time weat
 
 1. Clone the repository:
    ```bash
-   git clone( https://nancyrana1.github.io/Weather-Detector/ )
+   git clone https://nancyrana1.github.io/Weather-Detector/
