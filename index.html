@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="weather-icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  </head>
+  <body>
+    <div class="background"></div>
+    <div class="container">
+      <input
+        type="text"
+        size="50"
+        name="city"
+        id="input-box"
+        placeholder="Enter City Name"
+        required
+      />
+      <button id="btn" name="search-btn" onclick="getWeather()">Search</button>
+      <div id="result-box"></div>
+    </div>
+    <div class="centerdiv">
+        <a href="https://www.linkedin.com/in/nancy-rana-2441942a4/" target="_blank">
+            <i class="fa-brands fa-2x fa-linkedin-in"></i>
+        </a>
+        <a href="https://www.instagram.com/r_nancy_7/" target="_blank">
+            <i class="fa-brands fa-2x fa-square-instagram"></i>
+        </a>
+        <a href="https://x.com/NancyRana356472" target="_blank">
+            <i class="fa-brands fa-2x fa-twitter"></i>    
+        </a>
+        <a href="https://github.com/Nancyrana1" target="_blank">
+            <i class="fa-brands fa-2x fa-github"></i>    
+        </a>
+    </div>
+    <!-- <input type="checkbox" id="darkmode-toggle" />
+    <label for="darkmode-toggle"></label> -->
+    <script src="script.js"></script>
+  </body>
+</html>
